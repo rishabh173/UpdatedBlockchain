@@ -300,14 +300,18 @@
   }
 }
 
+.container h1{
+  text-align: center;
+
+}
 .card{
   position: relative;
-  height: 400px;
+  height: 375px;
   width: 250px;
   transform-style: preserve-3d;
 /*  perspective: 400px;
 */  transition: 0.5s;
-  margin: 30px;
+  margin: 40px auto;
   
 
 }
@@ -346,7 +350,7 @@
   content: '';
   position: absolute;
 /*  top: 20px;
-*/  left: 0%;
+*/  left: 50%;
   width: 100%;
   height: 100%;
   background: rgba(255,255,255,0.1);
@@ -368,9 +372,13 @@
   margin: 0;
 
 }
+.card .back .details h2{
+  color: #fff;
+}
 .card .back .details h2 span{
   font-size: 12px;
   margin-top: 0px;
+  color: white;
 }
 
 .socialIcons a {
@@ -389,9 +397,7 @@
 .socialIcons a:hover{
   background: #e91e63;
 }
-#team{
-  text-align: center;
-}
+
 </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -520,7 +526,7 @@
   <div id="team" class="container-fluid text-center">
     <h2>Team</h2><br>
     <div class="row slideanim">
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <div class="card">
     <div class="front"><img src="shot.jpeg" height="400" width="250" class="img-fluid"></div>
     <div class="back">
@@ -538,7 +544,7 @@
     </div>
   </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <div class="card">
     <div class="front"><img src="shot.jpeg" height="400" width="250" class="img-fluid"></div>
     <div class="back">
@@ -557,7 +563,7 @@
   </div>
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <div class="card">
     <div class="front"><img src="shot.jpeg" height="400" width="250" class="img-fluid"></div>
     <div class="back">
